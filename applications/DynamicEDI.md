@@ -1,8 +1,8 @@
-# VeChain General Grant Application Template
+# VeChain General Grant Application 
 
 ## Project Overview 
 
-- Project: DynamicEDI
+- Project: GetDynamic
 - Team Name: AerodynamicData 
 - Payment Address: USDT (ERC 20) payment address. We don't accept payments for the program in other currencies at this stage.
 
@@ -103,7 +103,7 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 
 ### Example Roadmap for a dApp Application
 
-#### Overview
+### Overview
 
 |  | Milestone 1 | Milestone 2 | Milestone 3 | Milestone 4 | Total |
 | - | - |- | - | - | - |
@@ -115,35 +115,34 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 
 This first milestone represents work in-progress or already completed.  We ask the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation.   This will enable us to launch and move forward on completion of the remaining milestones.  
 
-| 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.   This includes a primary and backup VPS service each operating Vechain testnet and mainnet nodes, storage services for the network, and data backups.  It also includes ISP, Zoom, Cloudflare, and primary website hosting services. In addition we have in place enterprise class on-prem servers (Supermicro) for development, testing, and production storage needs.  Our internal development network and phone systems are powered by Ubiquiti.    We have in place the tools and infrastructure necessary for the initial stage of rapid growth. 
-ISP Costs - Synchronous Gigabit Internet $150 per month 
+| 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.  This covers a primary and backup VPS service each operating Vechain testnet and mainnet nodes, storage services for the network, data backups, and monitoring. Also we have added our on-prem services.  Not included is our infrastructure hardware buildout including on-prem Supermicro servers for development, testing, and production storage needs as well as an enterprise class network built on Ubiquiti.   We have in place the tools and infrastructure necessary for the initial stage of rapid growth. 
+ISP Costs - Synchronous Gigabit Internet $150 per month.
 VPS Costs -  2 VPS Servers @ $50 each per month.  
-Hosting Fees - $25 Per Month
-Zoom - $200 per year 
-OV Wildcard SSL Cert - $200 per year 
+Hosting Fees - $25 Per Month.
+Zoom - $200 per year .
+OV Wildcard SSL Cert - $200 per year. 
 | 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, and the web app itself.  
 | 1c. | WebApp   |  Users will be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged.   Users are able to see 
 messages queued, sent, and received.  They are also able to create new customer relationships as well as manually send messages.   
-| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details about us, and offers users the ability to request a demo.  
+| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo.  
 
 
 #### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
 | 2a. | On-Prem Data Broker | This is a separate desktop app/service designed to be running on-prem as a service that manages the connection directly to the database.  This ensures that this service is inside any permiter security and can be isolated for protection. It will connect to the webapp via a whitelisted SSL connection and requiring a preshared key and token which can be generated in the webapp. This app will act as the conduit for managing data integration scripts, defining field mapping, encryption and decryption, and any local storage of data. 
 | 2b. | Integration Scripts | The first integration scripts will be generated for this milestone.  These scripts will manage the import, export, and translation of data.  Initial operations to be covered include Shipping Notifications, Shipping Detail, Work Order Update, Sales Delivery Date Change, Payment Generated Alert. 
-| 2c. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will all for connecting the specified server and database and will facilitate the data IO operations.   
+| 2c. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will allow for connecting the specified server and database and will facilitate the data IO operations.   
 
 
 
 
 #### Milestone 3  —  Smart Contract 
 
-| 2. | Smart Contracts | This milestone focuses on the creation and impplementation of the smart contract that will drive our services.    
+| 3. | Smart Contracts | This milestone focuses on the creation and impplementation of the smart contract that will drive our services.    
 
 #### Milestone 4  —  I/O Script & ERP Integration Expansion, Documentation 
-
 | 4a. | Data Import Export Scripts - We will expand the range of standard data scripts that we will support for each ERP integration.   
-| 4b. | Additional ERP Integrations - We will expand our connection options to include a Microsoft SQL Server integration with Pentagon2000 ERP 
-and a Salesforce Lightning integration with Avsight ERP.  All standard data import export scripts will be built for each specific ERP system to 
+| 4b. | Additional ERP Integrations - We will expand our connection options to include a Microsoft SQL Server integration 
+and a Salesforce Lightning integration.  All standard data import export scripts will be built for each specific ERP system to 
 simplify and accelerate integration.  
 | 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and a demonstration of key processes.   
 | 4d. | Transactional Support   |  We request the sponsoring of 100,000 VTHO.  These tokens will be used specifically for on-chain transactions by the webapp. 
@@ -177,18 +176,10 @@ Long term client expansion plans are focused on growth via customer word  of mou
 and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their 
 integrations generate.   
 
-The goal always being: more valuable transactions.  
+One of the goals always being: more valuable transactions.  
 
 
 ## Additional Information 
-
-Any additional information that you think is relevant to this application that hasn't already been included.
-
-Possible additional information to include:
-
-- What work has been done so far?
-- Are there any teams who have already contributed (financially) to the project?
-- Have you applied for other grants so far?
 
 Our app is entirely self funded and so far represents several years of discussion with clients, planning, design, and development work 
 to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform 
