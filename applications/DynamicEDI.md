@@ -31,7 +31,8 @@ VIP181 will be used for a future feature for Overhaul and Manufacturing certific
 
 ### Project Details
 
-Project is primarily based on Python, Django and Postgres.  Some aspects will use other technoligies including Go, C#, Docker, and IPFS. 
+Project is primarily based on Python, Django and Postgres.  Other technologies being used include Go, C#, Docker, Javascript,  
+VMWare, IPFS, Truenas, and Cloudflare. 
 
 We expect the teams to already have a solid idea about the project's expected final state.
 Therefore, we ask the teams to submit (where relevant):
@@ -51,6 +52,7 @@ Are there any other projects similar to yours? If so, how is your project differ
 - Ryan Realivasquez (Founder, Full stack Development) 
 - Matt Haydon (Cofounder, Web Development, Marketing ) 
 - Genaro Coronel (Full-Stack Development) 
+- Pietro Race (Advisor) 
 
 ### Team Website
 
@@ -71,6 +73,10 @@ when it is time executing on our web marketing plan.
 Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart contract 
 developer as well. He is responsible for coding our IPFS-Cluster storage backend, Dockerizing the infrastructure, and connecting the app to the Vechain  
 network.   
+
+Pietro Race is an advisor who has been working with us to help ensure development meets client's requirements.   Pietro has over 20 years working in the Aviation Industry as a software consultant and currently operates the leading consultancy in the aviation industry for ERP Integrations and Operations consulting. We fully intend to leverage his relationships in expanding our reach. 
+
+
 
 ### Team Code Repos
 
@@ -99,38 +105,79 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 
 #### Overview
 
-|  | Milestone 1 | Milestone 2 | Total |
-| - | - |- | - |
-| Estimated Duration | 30 d | 30 d | 60 d |
-| Full-time equivalent (FTE) | 2 | 1 | 3 |
-| Cost (up to $ 30,000) | $ 5,000 | $ 10,000 | $ 15,000|
+|  | Milestone 1 | Milestone 2 | Milestone 3 | Milestone 4 | Total |
+| - | - |- | - | - | - |
+| Estimated Duration | Completed | 30 d | 30 d | 30 d | 60 d |
+| Full-time equivalent (FTE) | 2 | 1 | 3 | 3 | 3 |
+| Cost (up to $ 30,000) | $ 5,000 | $ 10,000 | $ 10,000| $5,000| $ 30,000|
 
-#### Milestone 1 — Smart Contract & Backend
+#### Milestone 1 — Infrastructure, Backend, WebApp,  Website  
 
-| Number | Deliverable | Specification |
-|-|-|-|
-| 0a.| License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that can interact with the deployed smart contracts and backend service. |
-| 0c. | Testing Guide | The code will have proper unit-test coverage (e.g. 90%) to ensure functionality and robustness. In the guide, we will describe how to run these tests |
-| 1 | Smart Contracts | We will develop smart contracts that will...  (Please list the functionality that will be coded for the contracts) |
-| 2 | Backend | "We will create a backend service that will... (Please list the functionality that will be coded for the backend)" |
+This first milestone represents work in-progress or already completed.  We ask the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation.   This will enable us to launch and move forward on completion of the remaining milestones.  
 
-#### Milestone 2  —  Frontend
+| 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.   This includes a primary and backup VPS service each operating Vechain testnet and mainnet nodes, storage services for the network, and data backups.  It also includes ISP, Zoom, Cloudflare, and primary website hosting services. In addition we have in place enterprise class on-prem servers (Supermicro) for development, testing, and production storage needs.  Our internal development network and phone systems are powered by Ubiquiti.    We have in place the tools and infrastructure necessary for the initial stage of rapid growth. 
+ISP Costs - Synchronous Gigabit Internet $150 per month 
+VPS Costs -  2 VPS Servers @ $50 each per month.  
+Hosting Fees - $25 Per Month
+Zoom - $200 per year 
+OV Wildcard SSL Cert - $200 per year 
+| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, and the web app itself.  
+| 1c. | WebApp   |  Users will be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged.   Users are able to see 
+messages queued, sent, and received.  They are also able to create new customer relationships as well as manually send messages.   
+| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details about us, and offers users the ability to request a demo.  
 
-...
+
+#### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
+| 2a. | On-Prem Data Broker | This is a separate desktop app/service designed to be running on-prem as a service that manages the connection directly to the database.  This ensures that this service is inside any permiter security and can be isolated for protection. It will connect to the webapp via a whitelisted SSL connection and requiring a preshared key and token which can be generated in the webapp. This app will act as the conduit for managing data integration scripts, defining field mapping, encryption and decryption, and any local storage of data. 
+| 2b. | Integration Scripts | The first integration scripts will be generated for this milestone.  These scripts will manage the import, export, and translation of data.  Initial operations to be covered include Shipping Notifications, Shipping Detail, Work Order Update, Sales Delivery Date Change, Payment Generated Alert. 
+| 2c. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will all for connecting the specified server and database and will facilitate the data IO operations.   
+
+
+
+
+#### Milestone 3  —  Smart Contract 
+
+| 2. | Smart Contracts | This milestone focuses on the creation and impplementation of the smart contract that will drive our services.    
+
+#### Milestone 4  —  I/O Script & ERP Integration Expansion, Documentation 
+
+| 4a. | Data Import Export Scripts - We will expand the range of standard data scripts that we will support for each ERP integration.   
+| 4b. | Additional ERP Integrations - We will expand our connection options to include a Microsoft SQL Server integration with Pentagon2000 ERP 
+and a Salesforce Lightning integration with Avsight ERP.  All standard data import export scripts will be built for each specific ERP system to 
+simplify and accelerate integration.  
+| 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and a demonstration of key processes.   
+| 4d. | Transactional Support   |  We request the sponsoring of 100,000 VTHO.  These tokens will be used specifically for on-chain transactions by the webapp. 
+With this support it will enable us to offer new customers an initial amount of free transactions to enable experience with the software and hopefully increase traction at no cost to the customer. 
+
+
 
 #### Community engagement
+Medium Article - We will produce an article and publish it in Medium describing our app and its development as part of the program.   
+Discord Server - We will be setting up and operating a discord server for hosting discussion of the app and its functionality. 
+LinkedIN -   We will be using LinkedIN to reach out to our existing contact networks to share this tool once its core functionality is functioning 100%. 
+Tradeshows - As we gain traction we are prepared to attend and present at industry tradeshows for our targeted verticals.   
+Community Events - We are active in the blockchain and startup communities in the greater Los Angeles region.  We intend to openly 
+discuss our app at various networking events.    
 
-As part of the Program, we require that you produce and publish at least one article/tutorial (e.g., on Medium). It should explain your work done as part of the grant.
 
 ## Future Plans
 
-The intention of our team is to use this grant to complete the buildout of our project and turn it into a startup business and continue developing the 
-software, add new features, and increase the number of ERP integrations and build out a network of companies using this.  My focus is primarily on the 
-aerospace vertical as that is my primary experience and where most of my contacts are.  But I have contacts in the aftermarket automotive parts 
-vertical, as well as pharmaceutical verticals to expand the network.  
+The intention of our team is to use this grant to complete the buildout of our project and if we can gain traction continue developing the 
+software, add new features, increase the number of ERP integrations and build out a network of companies using this tool.  My focus is primarily on the 
+aerospace vertical as that is my primary experience and where most of my contacts are.  But I do have contacts in the aftermarket automotive parts 
+vertical, as well as pharmaceutical & medical device verticals to expand the network into those verticals as well.  
 
-Our goal is to bring to market an app that decentralizes and democratize EDI activities between companies.  
+We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business 
+management solutions.  We see many opportunties for expansion of managing the data the exchange of data between companies. 
+We will expand our data offerings in areas of transactional data, audit controls, accounting/financial controls, and digital 
+certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships 
+overseas and across borders.  
+
+Long term client expansion plans are focused on growth via customer word  of mouth, native integration with ERP software providers, 
+and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their 
+integrations generate.   
+
+The goal always being: more valuable transactions.  
 
 
 ## Additional Information 
@@ -143,10 +190,8 @@ Possible additional information to include:
 - Are there any teams who have already contributed (financially) to the project?
 - Have you applied for other grants so far?
 
-The basic infrastructure of our app is already functioning.  Messages can already be generated and transmitted over the Vechain network.  The app is 
-dockerized and can easily be replicated for on-prem or cloud single-tenant deployment.    Currently all development has been self-funded.  No other 
-grants have been applied for as of yet.  We are trying to move towards having a fully working MVP and integrated with at least two(2) ERP systems before 
-seeking further funding.   We do have launch customers that have seen the product in its current state and are interested in deploying the app as soon as 
-we can integrate with their ERP system.   Once we have customers that have validated the product we will be seeking further investment to fund security audits,  
-as well as further EDI standards integration such as ISO-20022, HIPPAA EDI,  and other standards.  
+Our app is entirely self funded and so far represents several years of discussion with clients, planning, design, and development work 
+to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform 
+combined with other technologies meet those requirements.  This is our first grant application.  Our sincere goal here is to build this app 
+as a bridge to blockchain technologies from existing on-prem and cloud technologies.  
 
