@@ -115,7 +115,7 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 
 This first milestone represents work in-progress or already completed.  We ask the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation.   This will enable us to launch and move forward on completion of the remaining milestones.  
 
-| 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.  This covers a primary and backup VPS service each operating Vechain testnet and mainnet nodes, storage services for the network, data backups, and monitoring. Also we have added our on-prem services.  Not included is our infrastructure hardware buildout including on-prem Supermicro servers for development, testing, and production storage needs as well as an enterprise class network built on Ubiquiti.   We have in place the tools and infrastructure necessary for the initial stage of rapid growth. 
+| 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.  This covers a primary and backup VPS service each operating Vechain testnet and mainnet nodes, on-prem and cloud storage services for the network, data backups, and monitoring. Internal production and test network topology is configured for security with current generation enterprise quality gear. 
 ISP Costs - Synchronous Gigabit Internet $150 per month.
 VPS Costs -  2 VPS Servers @ $50 each per month.  
 Hosting Fees - $25 Per Month.
@@ -128,15 +128,16 @@ messages queued, sent, and received.  They are also able to create new customer 
 
 
 #### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
-| 2a. | On-Prem Data Broker | This is a separate desktop app/service designed to be running on-prem as a service that manages the connection directly to the database.  This ensures that this service is inside any permiter security and can be isolated for protection. It will connect to the webapp via a whitelisted SSL connection and requiring a preshared key and token which can be generated in the webapp. This app will act as the conduit for managing data integration scripts, defining field mapping, encryption and decryption, and any local storage of data. 
-| 2b. | Integration Scripts | The first integration scripts will be generated for this milestone.  These scripts will manage the import, export, and translation of data.  Initial operations to be covered include Shipping Notifications, Shipping Detail, Work Order Update, Sales Delivery Date Change, Payment Generated Alert. 
-| 2c. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will allow for connecting the specified server and database and will facilitate the data IO operations.   
 
+| 2a. | GraphQL API Gateway | Create GraphQL based data gateway alllowing for the bidrectional exchange of key data covering standard message types.    
+| 2b. | On-Prem Data Broker | Middelware designed to manage the exchange of data between on-prem ERP database and the webapp.  This app will reside on 
+the customer network and can be securely connected to the webapp's graphql interface to exchange data.   Data will be sent and received based on pre-defined and validated scripts.  This app, for this milestone, will connect initially to an oracle database.  Additional database types will be added in the future. 
+| 2c. | Integration Scripts | The first integration scripts will be generated for this milestone.  These scripts will manage the import, export, and translation of data.  Initial operations to be covered include Shipping Notifications, Shipping Detail, Work Order Update, Sales Delivery Date Change, Payment Generated Alert. 
+| 2d. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will allow for connecting the specified server and database and will facilitate the data IO operations.   
 
 
 
 #### Milestone 3  —  Smart Contract 
-
 | 3. | Smart Contracts | This milestone focuses on the creation and impplementation of the smart contract that will drive our services.    
 
 #### Milestone 4  —  I/O Script & ERP Integration Expansion, Documentation 
@@ -152,15 +153,14 @@ With this support it will enable us to offer new customers an initial amount of 
 
 #### Community engagement
 Medium Article - We will produce an article and publish it in Medium describing our app and its development as part of the program.   
-Discord Server - We will be setting up and operating a discord server for hosting discussion of the app and its functionality. 
-LinkedIN -   We will be using LinkedIN to reach out to our existing contact networks to share this tool once its core functionality is functioning 100%. 
-Tradeshows - As we gain traction we are prepared to attend and present at industry tradeshows for our targeted verticals.   
-Community Events - We are active in the blockchain and startup communities in the greater Los Angeles region.  We intend to openly 
+Discord Server - We will be setting up and operating a discord server for hosting discussion of the app, its functionality, and support.  
+Community Events - We are active in the blockchain and startup communities in the greater Los Angeles/San Diego region.  We intend to openly 
 discuss our app at various networking events.    
+LinkedIN -   We will be using LinkedIN to reach out to our existing contact networks to share this tool and ignite interest. 
+Tradeshows - As we gain traction we are prepared to attend and present at industry tradeshows for our targeted verticals.   
 
 
 ## Future Plans
-
 The intention of our team is to use this grant to complete the buildout of our project and if we can gain traction continue developing the 
 software, add new features, increase the number of ERP integrations and build out a network of companies using this tool.  My focus is primarily on the 
 aerospace vertical as that is my primary experience and where most of my contacts are.  But I do have contacts in the aftermarket automotive parts 
