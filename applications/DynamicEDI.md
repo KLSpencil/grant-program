@@ -9,15 +9,11 @@
 
 ### Overview
 
-GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data.  The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
+GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
 
 This project was born out of my 15 years of experiences as an ERP consultant in the aerospace industry. Many companies have the same issues with data 
-and yet do not have any easy way of exchanging the data they need.  Most companies are still doing this manually over phone and email.  Most EDI vendors 
-only support large companies leaving small to medium sized business to fend for themselves.  Part of this is due to the high transaction cost of existing EDI services. 
-GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies. 
+and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or also using legacy centralized systems at great cost.  The high cost of existing EDI vendors sets a high cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies. The app will integrate VIP191 fee delegation to eliminate the need for users to own any crypto themselves.   Transaction costs will be billed to customer on a monthly basis via smart contract integration. VIP192 and VIP181 are intended to be used for future features.  
 
-The app will integrate VIP191 fee delegation to eliminate the need for users to own any crypto themselves.   Transaction costs will be billed 
-to customer on a monthly basis via smart contract integration. VIP192 and VIP181 are intended to be used for future features.  
 
 
 ### Project Details
@@ -34,15 +30,16 @@ Therefore, we ask the teams to submit (where relevant):
 - PoC/MVP or other relevant prior work or research on the topic
 
 ### Ecosystem Fit
-Are there any other projects similar to yours? If so, how is your project different?
+Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.     
+
 
 ## Team 
 
-### Team members
-
+### Team members & Contributors
 - Ryan Realivasquez (Founder, Full stack Development) 
 - Matt Haydon (Cofounder, Web Development, Marketing ) 
-- Genaro Coronel (Full-Stack Development) 
+- Genaro Coronel (Full Stack Development) 
+- Oleg Tropinin (Full Stack Development) 
 - Pietro Race (Advisor) 
 
 ### Team Website
@@ -61,9 +58,9 @@ Matt Haydon is a cofounder of DynamicsEDI.  He has past experience launching sev
 social media communities.   Matt is also contributing to development of our app by focusing on designing and building the UX in our interfaces as well as planning and 
 when it is time executing on our web marketing plan.  
 
-Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart contract 
-developer as well. He is responsible for coding our IPFS-Cluster storage backend, Dockerizing the infrastructure, and connecting the app to the Vechain  
-network.   
+Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart contract seveloper as well. He is responsible for coding our IPFS-Cluster storage backend, Dockerizing the infrastructure, and connecting the app to the Vechain network.  
+
+Oleg Tropinin has contributed to early development efforts and will be rejoining us for future development.  He has been responsible for our initial Vechain integration, and web app infrastructure setup. 
 
 Pietro Race is an advisor who has been working with us to help ensure development meets client's requirements.   Pietro has over 20 years working in the Aviation Industry as a software consultant and currently operates the leading consultancy in the aviation industry for ERP Integrations and Operations consulting. We fully intend to leverage his relationships in expanding our reach. 
 
