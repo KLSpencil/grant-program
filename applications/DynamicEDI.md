@@ -4,7 +4,7 @@
 
 - Project: GetDynamic
 - Team Name: AerodynamicData 
-- Payment Address: 0x8D4AA616E759058A9aD5cD4F43F4CbD23A7A6Baf
+- USDT Payment Address: 0x8D4AA616E759058A9aD5cD4F43F4CbD23A7A6Baf
 - 
 
 ### Overview
