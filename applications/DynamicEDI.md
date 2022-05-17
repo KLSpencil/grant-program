@@ -44,7 +44,7 @@ Within Vechain there are not any projects that we are aware of that are similar.
 ### Team Website
 
 - https://getdynamic.app
-- 
+
 ### Team's experience
 
 Please describe the team's relevant experience. If the project involves development work, then we'd appreciated it if you can single out a few interesting codes commits made by team members on their past projects. 
@@ -97,17 +97,16 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 This first milestone represents work in-progress or already completed.  We ask the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation.   This will enable us to launch and move forward on completion of the remaining milestones. 
 
 | 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.  This covers a primary and backup VPS service each operating Vechain testnet and mainnet nodes, on-prem and cloud storage services for the network, data backups, and monitoring. Internal production and test network topology is configured for security with current generation enterprise quality gear. 
-
-ISP Costs - Synchronous Gigabit Internet $150 per month.
-VPS Costs -  2 VPS Servers @ $50 each per month.  
-Hosting Fees - $25 Per Month.
-Zoom - $200 per year .
-OV Wildcard SSL Cert - $200 per year. 
+- ISP Costs - Synchronous Gigabit Internet $150 per month.
+- VPS Costs -  2 VPS Servers @ $50 each per month.  
+- Hosting Fees - $50 Per Month.
+- Zoom - $200 per year .
+- OV Wildcard SSL Cert - $200 per year. 
 
 | 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.   |
 | 1c. | WebApp   |  Users will be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged.   Users are able to see 
 messages queued, sent, and received. Users are able to manage client relationships as well as send manual messages.   |
-| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  |
+| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  
 
 
 #### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
