@@ -89,7 +89,7 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 |  | Milestone 1 | Milestone 2 | Milestone 3 | Milestone 4 | Total |
 | - | - |- | - | - | - |
 | Estimated Duration |Completed | 60 d | 30 d | 30 d | 120 d |
-| Full-time equivalent (FTE) | 2 | 1 | 3 | 3 | 3 |
+| Full-time equivalent (FTE) | 2 | 4 | 2 | 2 | 2 |
 | Cost (up to $ 30,000) | $ 7,500 | $ 10,000 | $ 7,500 | $5,000| $ 30,000|
 
 #### Milestone 1 — Infrastructure, Backend, WebApp,  Website  
@@ -113,6 +113,11 @@ messages queued, sent, and received. Users are able to manage client relationshi
 #### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
 
 | 2a. | GraphQL API Gateway | Create GraphQL based data gateway alllowing for the bidrectional exchange of key data via GraphQL API.  
+- Send New Transaction 
+- Receive Transactions 
+- New Exchange Request 
+- IPFS Keyshare 
+- History Download 
 
 | 2b. | On-Prem Data Broker | Middelware designed to manage the exchange of data between on-prem ERP database and the webapp.  This app will reside on 
 the customer network and can be securely connected to the webapp's graphql interface to exchange data.   Data will be sent and received based on pre-defined and validated scripts.  This app, for this milestone, will connect initially to an oracle database.  Additional database types will be added in the future. 
@@ -132,7 +137,7 @@ the customer network and can be securely connected to the webapp's graphql inter
 
 | 3b. | Public Directory |  Public  Authenticated Wallet Address Listing Via VIP192  
 
-| 3c. | IPFS Access Control | Keyshare for IPFS 
+| 3c. | IPFS Access Control | Keyshare for IPFS Swarm
 
 | 3d. | Contractor Commissions | Process to drive payment of contractor commissions on transactions
  
@@ -143,7 +148,7 @@ the customer network and can be securely connected to the webapp's graphql inter
 
 | 4b. | Additional ERP Integrations - We will expand our connection options to include a Microsoft SQL Server integration 
 and a Salesforce Lightning integration.  All standard data import export scripts will be built for each specific ERP system to 
-simplify and accelerate integration.  
+simplify and accelerate client integration.  
 
 | 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and a demonstration of key processes.   
 
