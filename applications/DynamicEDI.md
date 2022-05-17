@@ -127,19 +127,26 @@ the customer network and can be securely connected to the webapp's graphql inter
 
 #### Milestone 3  —  Smart Contract 
 | 3. | Smart Contracts | This milestone focuses on the creation and impplementation of the smart contract that will drive the service.
+
 | 3a. | Access Controls |  Control for VIP191 Fee Delegation vs Payment by Sender
+
 | 3b. | Public Directory |  Public  Authenticated Wallet Address Listing Via VIP192  
+
 | 3c. | IPFS Access Control | Keyshare for IPFS 
+
 | 3d. | Contractor Commissions | Process to drive payment of contractor commissions on transactions
  
 
 
 #### Milestone 4  —  I/O Script & ERP Integration Expansion, Documentation 
 | 4a. | Data Import Export Scripts - We will expand the range of standard data scripts that we will support for each ERP integration.   
+
 | 4b. | Additional ERP Integrations - We will expand our connection options to include a Microsoft SQL Server integration 
 and a Salesforce Lightning integration.  All standard data import export scripts will be built for each specific ERP system to 
 simplify and accelerate integration.  
+
 | 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and a demonstration of key processes.   
+
 | 4d. | Transactional Support   |  We request the sponsoring of 100,000 VTHO.  These tokens will be used specifically for on-chain transactions by the webapp. 
 With this support it will enable us to offer new customers an initial amount of free transactions to enable experience with the software and hopefully increase traction at no cost to the customer. 
 
