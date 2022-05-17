@@ -29,7 +29,8 @@ Therefore, we ask the teams to submit (where relevant):
 - PoC/MVP or other relevant prior work or research on the topic
 
 ### Ecosystem Fit
-Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.     
+Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.    
+We believe that our app fits well within the Vechain ecosystem as it will deliver a B2B system for connecting companies to a public blockchain.  
 
 
 ## Team 
@@ -148,17 +149,11 @@ Tradeshows - As we gain traction we are prepared to attend and present at indust
 
 
 ## Future Plans
-The intention of our team is to use this grant to complete the buildout of our project and begin implementation with existing clients.  With a small amount of traction we will add new features, increase the number of ERP integrations and build out a network of companies using this tool.  My focus is primarily on the aerospace vertical as that is my primary experience and where most of my contacts are.  But I do have contacts in the aftermarket automotive parts vertical, as well as pharmaceutical & medical device verticals to expand the network into those verticals as well via partnerships with other software consultancies. 
+The intention of our team is to use this grant to complete the buildout of our project and begin implementation with existing clients.  With a small amount of traction we will add new features, increase the number of ERP integrations and begin building out a network of integrators who will bring online more companies using this tool.  Our initial focus will be on manufacturing and service companies as well as companies within the aftermarket automotive parts vertical.  We also will look for opportunities to integrate with the  pharmaceutical & medical device verticals to expand the network into those verticals as well via partnerships with other software consultancies. 
 
-We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business 
-management solutions.  We see many opportunties for expansion of managing the exchange of data between companies. 
-We will expand our data offerings in areas of transactional data, audit controls, accounting/financial controls, and digital 
-certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships 
-overseas and across borders.  
+We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business management solutions.  We see many opportunties for expansion of managing the exchange of data between companies. We will expand our standard data exchange offerings in areas of transactional data, audit controls, accounting/financial controls, and digital certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships overseas and across borders.  
 
-Long term client expansion plans are focused on growth via client word of mouth, native integration with ERP software providers, 
-and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their 
-integrations generate.   
+Long term client expansion plans are focused on growth via client word of mouth, native integration with ERP software providers, and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their integrations generate.   
 
 Always creating more valuable transactions.  
 
