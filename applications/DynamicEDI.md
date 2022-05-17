@@ -103,6 +103,7 @@ VPS Costs -  2 VPS Servers @ $50 each per month.
 Hosting Fees - $25 Per Month.
 Zoom - $200 per year .
 OV Wildcard SSL Cert - $200 per year. 
+
 | 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.  
 | 1c. | WebApp   |  Users will be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged.   Users are able to see 
 messages queued, sent, and received. Users are able to manage client relationships as well as send manual messages.   
