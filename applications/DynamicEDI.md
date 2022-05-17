@@ -104,10 +104,10 @@ Hosting Fees - $25 Per Month.
 Zoom - $200 per year .
 OV Wildcard SSL Cert - $200 per year. 
 
-| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.  
+| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.   |
 | 1c. | WebApp   |  Users will be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged.   Users are able to see 
-messages queued, sent, and received. Users are able to manage client relationships as well as send manual messages.   
-| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  
+messages queued, sent, and received. Users are able to manage client relationships as well as send manual messages.   |
+| 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  |
 
 
 #### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
