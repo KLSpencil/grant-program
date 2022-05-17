@@ -29,8 +29,7 @@ Therefore, we ask the teams to submit (where relevant):
 - PoC/MVP or other relevant prior work or research on the topic
 
 ### Ecosystem Fit
-Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.    
-We believe that our app fits well within the Vechain ecosystem as it will deliver a B2B system for connecting companies to a public blockchain.  
+Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.  We believe that our app fits well within the Vechain ecosystem as it will provide an on-ramp for companies to leverage existing infrastructure in accessing and taking advantage of modern distributed ledger technology.
 
 
 ## Team 
@@ -45,6 +44,7 @@ We believe that our app fits well within the Vechain ecosystem as it will delive
 ### Team Website
 
 - https://getdynamic.app
+- 
 ### Team's experience
 
 Please describe the team's relevant experience. If the project involves development work, then we'd appreciated it if you can single out a few interesting codes commits made by team members on their past projects. 
