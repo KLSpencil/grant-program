@@ -112,11 +112,15 @@ messages queued, sent, and received. Users are able to manage client relationshi
 
 #### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
 
-| 2a. | GraphQL API Gateway | Create GraphQL based data gateway alllowing for the bidrectional exchange of key data via GraphQL API.     
+| 2a. | GraphQL API Gateway | Create GraphQL based data gateway alllowing for the bidrectional exchange of key data via GraphQL API.  
+
 | 2b. | On-Prem Data Broker | Middelware designed to manage the exchange of data between on-prem ERP database and the webapp.  This app will reside on 
 the customer network and can be securely connected to the webapp's graphql interface to exchange data.   Data will be sent and received based on pre-defined and validated scripts.  This app, for this milestone, will connect initially to an oracle database.  Additional database types will be added in the future. 
+
 | 2c. | Integration Scripts | The first integration scripts will be generated for this milestone.  These scripts will manage the import, export, and translation of data.  Initial operations to be covered include Shipping Notifications, Shipping Detail, Work Order Update, Sales Delivery Date Change, Payment Generated Alert. 
+
 | 2d. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will allow for connecting the specified server and database and will facilitate the data IO operations.   
+
 | 2e. |  Test Suite   | -  We will develop a test suite to enable testing of all key functions including ERP database connections, sending and receiving transactions, and encryption/decryption processes.  
 
 
