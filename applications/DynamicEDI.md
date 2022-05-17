@@ -12,8 +12,7 @@
 GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
 
 This project was born out of my 15 years of experiences as an ERP consultant in the aerospace industry. Many companies have the same issues with data 
-and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or also using legacy centralized systems at great cost.  The high cost of existing EDI vendors sets a high cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies. The app will integrate VIP191 fee delegation to eliminate the need for users to own any crypto themselves.   Transaction costs will be billed to customer on a monthly basis via smart contract integration. VIP192 and VIP181 are intended to be used for future features.  
-
+and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or also using legacy centralized systems at great cost.  The high cost of existing EDI vendors sets a high cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies. The app will integrate VIP191 fee delegation to eliminate the need for users to own any crypto themselves however transactions can be paid from client wallet without having a subscription.   Transaction costs will be billed to customer on a monthly basis via smart contract integration. VIP192 and VIP181 are intended to be used for future features.  
 
 
 ### Project Details
@@ -49,14 +48,9 @@ Within Vechain there are not any projects that we are aware of that are similar.
 
 Please describe the team's relevant experience. If the project involves development work, then we'd appreciated it if you can single out a few interesting codes commits made by team members on their past projects. 
 
-Ryan Realivasquez is the primary founder of DynamicsEDI.  He brings to the table over 15 years of consulting experience delivering implementations and support of ERP systems 
-in the aerospace industry.  It is during this time consulting that he developed the idea of bringing to market a simplified EDI system on blockchain technology. While EDI systems already exist DynamicEDI is born out of listening to users of these existing systems and their needs and interests.  Privacy.  Simplicity. Cost.    Ryan launched 
-development of the app, has researched and defined the infrastructure technologies to be used, defined the features and product roadmap, and has been self funding  the 
-engagement of professional developers to complete initial development. 
+Ryan Realivasquez is the primary founder of GetDynamic.  He brings to the table over 15 years of consulting experience delivering implementations and support of ERP systems in the aerospace industry.  It is during this time consulting that he identified the need for a lower cost and more widely available system for exchanging data between companies.   While EDI systems already exist DynamicEDI is born out of listening to users of these existing systems and their needs and interests.  Privacy.  Simplicity. Cost.  Ryan launched development of the app, has researched and defined the infrastructure technologies to be used, defined the features and product roadmap, and has self funded the  engagement of professional developers to complete initial development. 
 
-Matt Haydon is a cofounder of DynamicsEDI.  He has past experience launching several small businesses and is an influencer within the blockchain space operating successful 
-social media communities.   Matt is also contributing to development of our app by focusing on designing and building the UX in our interfaces as well as planning and 
-when it is time executing on our web marketing plan.  
+Matt Haydon is a cofounder of DynamicsEDI.  He has past experience launching several small businesses and is an influencer within the blockchain space operating successful social media communities.   Matt is also contributing to development of our app by focusing on designing and building the UX in our interfaces as well as planning and when it is time executing on our web marketing plan.  
 
 Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart contract seveloper as well. He is responsible for coding our IPFS-Cluster storage backend, Dockerizing the infrastructure, and connecting the app to the Vechain network.  
 
@@ -102,12 +96,13 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 This first milestone represents work in-progress or already completed.  We ask the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation.   This will enable us to launch and move forward on completion of the remaining milestones. 
 
 | 1a. | Infrastructure  | We are asking for assistance with the first year of infrastructure service costs.  This covers a primary and backup VPS service each operating Vechain testnet and mainnet nodes, on-prem and cloud storage services for the network, data backups, and monitoring. Internal production and test network topology is configured for security with current generation enterprise quality gear. 
+
 ISP Costs - Synchronous Gigabit Internet $150 per month.
 VPS Costs -  2 VPS Servers @ $50 each per month.  
 Hosting Fees - $25 Per Month.
 Zoom - $200 per year .
 OV Wildcard SSL Cert - $200 per year. 
-| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, and the web app itself.  
+| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.  
 | 1c. | WebApp   |  Users will be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged.   Users are able to see 
 messages queued, sent, and received. Users are able to manage client relationships as well as send manual messages.   
 | 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  
@@ -165,7 +160,7 @@ Long term client expansion plans are focused on growth via client word of mouth,
 and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their 
 integrations generate.   
 
-One of the goals always being: more valuable transactions.  
+Always creating more valuable transactions.  
 
 
 ## Additional Information 
