@@ -15,18 +15,39 @@ This project was born out of my 15 years of experiences as an ERP consultant in 
 and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or also using legacy centralized systems at great cost.  The high cost of existing EDI vendors sets a high cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies. The app will integrate VIP191 fee delegation to eliminate the need for users to own any crypto themselves however transactions can be paid from client wallet without having a subscription.   Transaction costs will be billed to customer on a monthly basis via smart contract integration. VIP192 and VIP181 are intended to be used for future features.  
 
 
+
+
 ### Project Details
 
 Our project is primarily based on Python, Django and Postgres.  Other technologies being used include Go, C#, Docker, Javascript,  
 VMWare, IPFS, Truenas, and Cloudflare. 
 
-We expect the teams to already have a solid idea about the project's expected final state.
-Therefore, we ask the teams to submit (where relevant):
-- Mockups/designs of any UI components
-- API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
+ 
+Mockups/designs of UI components:
+ 
+- Login Page
+![login-page](https://user-images.githubusercontent.com/11070873/168932198-c7ab7301-a457-403b-9293-2995e348d78d.png)
+ 
+- Main Dashboard Page 
+![Screenshot from 2022-05-17 16-41-14](https://user-images.githubusercontent.com/11070873/168932347-c38832af-0d79-48af-bed4-5df5ed43a2b1.png)
+
+- Adding A Company / Companies Page
+![companies-page](https://user-images.githubusercontent.com/11070873/168932639-db1b128a-60a1-415e-8d41-34a76a8584c5.png)
+
+- Company List
+![company-list](https://user-images.githubusercontent.com/11070873/168932731-1b1f08eb-4269-40b1-ad2e-36cbc2b49803.png)
+
+- Send New Message
+ ![send-new-message](https://user-images.githubusercontent.com/11070873/168932804-7240a274-6db7-4d64-8082-cb15bf0deeee.png)
+
+- System Configuration
+![system-config](https://user-images.githubusercontent.com/11070873/168932902-4bf0df7c-4b5e-4601-b1e8-f018318260f7.png)
+
+- Add Trans Type
+![add-trans-type](https://user-images.githubusercontent.com/11070873/168932979-6dde98f1-40c8-44da-91d9-6647f5cdf348.png)
+
+- API specifications of core functionality:
+ 
 
 ### Ecosystem Fit
 Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.  We believe that our app fits well within the Vechain ecosystem as it will provide an on-ramp for companies to leverage existing infrastructure in accessing and taking advantage of modern distributed ledger technology.
