@@ -12,9 +12,7 @@
 GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
 
 This project was born out of my 15 years of experiences as an ERP consultant in the aerospace industry. Many companies have the same issues with data 
-and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or also using legacy centralized systems at great cost.  The high cost of existing EDI vendors sets a high cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies. The app will integrate VIP191 fee delegation to eliminate the need for users to own any crypto themselves however transactions can be paid from client wallet without having a subscription.   Transaction costs will be billed to customer on a monthly basis via smart contract integration. VIP192 and VIP181 are intended to be used for future features.  
-
-
+and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or also using legacy centralized systems at great cost.  The high cost of existing EDI vendors sets a high cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies.  Users will have a choice to pay for transactions either from their own wallet directly or via subscription managed using VIP191.  No subscription or payment is required to receive transactions.    
 
 
 ### Project Details
@@ -43,7 +41,7 @@ Mockups/designs of UI components:
 - System Configuration
 ![system-config](https://user-images.githubusercontent.com/11070873/168932902-4bf0df7c-4b5e-4601-b1e8-f018318260f7.png)
 
-- Add Trans Type
+- Add Transaction Type
 ![add-trans-type](https://user-images.githubusercontent.com/11070873/168932979-6dde98f1-40c8-44da-91d9-6647f5cdf348.png)
 
 - API specifications of core functionality:
@@ -70,9 +68,9 @@ Within Vechain there are not any projects that we are aware of that are similar.
 
 Please describe the team's relevant experience. If the project involves development work, then we'd appreciated it if you can single out a few interesting codes commits made by team members on their past projects. 
 
-Ryan Realivasquez is the primary founder of GetDynamic.  He brings to the table over 15 years of consulting experience delivering implementations and support of ERP systems in the aerospace industry.  It is during this time consulting that he identified the need for a lower cost and more widely available system for exchanging data between companies.   While EDI systems already exist DynamicEDI is born out of listening to users of these existing systems and their needs and interests.  Privacy.  Simplicity. Cost.  Ryan launched development of the app, has researched and defined the infrastructure technologies to be used, defined the features and product roadmap, and has self funded the  engagement of professional developers to complete initial development. 
+Ryan Realivasquez is the primary founder of GetDynamic.  He brings to the table over 15 years of consulting experience delivering implementations and support of ERP systems in the aerospace industry.  It is during this time consulting that he identified the need for a lower cost and more widely available system for exchanging data between companies.   While EDI systems already exist GetDynamic is born out of listening to users of these existing systems and their needs and interests.  Privacy.  Simplicity. Cost.  Ryan launched development of the app, has researched and defined the infrastructure technologies to be used, defined the features and product roadmap, and has self funded the  engagement of professional developers to complete initial development. 
 
-Matt Haydon is a cofounder of DynamicsEDI.  He has past experience launching several small businesses and is an influencer within the blockchain space operating successful social media communities.   Matt is also contributing to development of our app by focusing on designing and building the UX in our interfaces as well as planning and when it is time executing on our web marketing plan.  
+Matt Haydon is a cofounder of GetDynamic.  He has past experience launching several small businesses and is an influencer within the blockchain space operating successful social media communities.   Matt is also contributing to development of our app by focusing on designing and building the UX in our interfaces as well as planning and when it is time executing on our web marketing plan.  
 
 Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart contract seveloper as well. He is responsible for coding our IPFS-Cluster storage backend, Dockerizing the infrastructure, and connecting the app to the Vechain network.  
 
@@ -130,23 +128,22 @@ messages queued, sent, and received. Users are able to manage client relationshi
 | 1d. | Website  |  Our primary website is built and launched showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  
 
 
-#### Milestone 2  —  On-Prem Data Broker, Initial Data Scripts, ERP Integration  
+#### Milestone 2  —  API,  On-Prem Data Broker, Initial Data Scripts, Test Suite 
 
-| 2a. | GraphQL API Gateway | Create GraphQL based data gateway alllowing for the bidrectional exchange of key data via GraphQL API.  
+| 2a. | OpenAPI API Gateway | Create OpenAPI  based api for performing all key functions.   API will be made available on RapidAPI. 
 - Send New Transaction 
 - Receive Transactions 
 - New Exchange Request 
 - IPFS Keyshare 
 - History Download 
+- Company Match 
 
 | 2b. | On-Prem Data Broker | Middelware designed to manage the exchange of data between on-prem ERP database and the webapp.  This app will reside on 
 the customer network and can be securely connected to the webapp's graphql interface to exchange data.   Data will be sent and received based on pre-defined and validated scripts.  This app, for this milestone, will connect initially to an oracle database.  Additional database types will be added in the future. 
 
 | 2c. | Integration Scripts | The first integration scripts will be generated for this milestone.  These scripts will manage the import, export, and translation of data.  Initial operations to be covered include Shipping Notifications, Shipping Detail, Work Order Update, Sales Delivery Date Change, Payment Generated Alert. 
 
-| 2d. |  ERP Integration | The initial integrations will be for Oracle databases as well as connecting via the ODBC interface. This connection will allow for connecting the specified server and database and will facilitate the data IO operations.   
-
-| 2e. |  Test Suite   | -  We will develop a test suite to enable testing of all key functions including ERP database connections, sending and receiving transactions, and encryption/decryption processes.  
+| 2d. |  Test Suite   | -  We will develop a test suite to enable testing of all key functions including ERP database connections, sending and receiving transactions, and encryption/decryption processes.  
 
 
 
@@ -170,7 +167,7 @@ the customer network and can be securely connected to the webapp's graphql inter
 and a Salesforce Lightning integration.  All standard data import export scripts will be built for each specific ERP system to 
 simplify and accelerate client integration.  
 
-| 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and a demonstration of key processes.   
+| 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and a demonstration of key processes. Specifically, we will provide detailed instructions on how to create new scripts to meet the user's specific needs.     
 
 | 4d. | Transactional Support   |  We request the sponsoring of 100,000 VTHO.  These tokens will be used specifically for on-chain transactions by the webapp. 
 With this support it will enable us to offer new customers an initial amount of free transactions to enable experience with the software and hopefully increase traction at no cost to the customer. 
@@ -186,9 +183,9 @@ Tradeshows - As we gain traction we are prepared to attend and present at indust
 
 
 ## Future Plans
-The intention of our team is to use this grant to complete the buildout of our project and begin implementation with existing clients.  With a small amount of traction we will add new features, increase the number of ERP integrations and begin building out a network of integrators who will bring online more companies using this tool.  Our initial focus will be on manufacturing and service companies as well as companies within the aftermarket automotive parts vertical.  We also will look for opportunities to integrate with the  pharmaceutical & medical device verticals to expand the network into those verticals as well via partnerships with other software consultancies. 
+The intention of our team is to use this grant to complete the buildout of our project and begin implementation with existing clients.  With a small amount of traction we will add new features, increase the number of ERP integrations and begin recruiting a network of integrators who will bring online more companies using this tool.  Our initial focus will be on manufacturing and service companies within several different markets. We also will look for opportunities to integrate with import-export businesses as well growth via partnerships with other software consultancies. 
 
-We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business management solutions.  We see many opportunties for expansion of managing the exchange of data between companies. We will expand our standard data exchange offerings in areas of transactional data, audit controls, accounting/financial controls, and digital certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships overseas and across borders.  
+We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business management solutions.  We see many opportunties for expansion of managing the exchange of data between companies. We will expand our standard data exchange offerings in areas of transactional data, audit controls, accounting/financial controls, and digital certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships across borders and over seas.  
 
 Long term client expansion plans are focused on growth via client word of mouth, native integration with ERP software providers, and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their integrations generate.   
 
@@ -200,5 +197,5 @@ Always creating more valuable transactions.
 Our app is entirely self funded and so far represents several years of discussion with clients, planning, design, and development work 
 to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform 
 combined with other technologies meet those requirements.  This is our first grant application.  Our sincere goal here is to build this app 
-as a bridge to blockchain technologies from existing on-prem and cloud technologies.  
+as a bridge to blockchain technologies from existing on-prem and cloud technologies.    
 
