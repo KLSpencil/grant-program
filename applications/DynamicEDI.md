@@ -11,8 +11,7 @@
 
 GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
 
-This project was born out of my 15 years of experiences as an ERP consultant in the aerospace industry. Many companies have the same issues with data 
-and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or are using legacy centralized systems at great cost.  Existing EDI services have too high a cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies.  Users will have a choice to pay for transactions either from their own wallet directly or via subscription managed using VIP191.  No subscription or payment is required to receive transactions.    
+This project was born out of my 15 years of experiences as an ERP consultant in the aerospace industry. Many companies have the same issues with data and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or are using legacy centralized systems at great cost.  Existing EDI services have too high a cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies.  Users will have a choice to pay for transactions either from their own wallet directly or via subscription managed using VIP191.  No subscription or payment is required to receive transactions.    
 
 
 ### Project Details
@@ -167,7 +166,7 @@ that companies can be reached at for purposes of this app.   This public address
 and a Salesforce Lightning integration.  Standard data import export scripts will be built for each specific ERP system to 
 simplify and accelerate client integration.  
 
-| 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. We also intend to generate Youtube videos showing a walk through of the software and demonstration of key processes. Specifically, we will provide detailed instructions on how to create new import and export scripts to meet the user's specific needs.     
+| 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. Youtube videos will be created showing a walk through of the software and demonstration of key processes. Specifically, we will provide detailed instructions on how to create new import and export scripts to meet the user's specific needs.     
 
 | 4d. | Transactional Support   |  We request the sponsoring of 100,000 VTHO.  These tokens will be used specifically for on-chain transactions by the webapp. 
 With this support it will enable us to offer new customers an initial amount of free transactions to enable experience with the software and hopefully increase 
@@ -188,15 +187,12 @@ The intention of our team is to use this grant to complete the buildout of our p
 
 We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business management solutions.  We see many opportunties for expansion of managing the exchange of data between companies. We will expand our standard data exchange offerings in areas of transactional data, audit controls, accounting/financial controls, and digital certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships across borders and over seas.  
 
-Long term client expansion plans are focused on growth via client word of mouth, native integration with ERP software providers, and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their integrations generate.   
+Long term client expansion plans are focused on growth via native integration with ERP software providers, client word of mouth, and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their integrations generate.   
 
 Always creating more valuable transactions.  
 
 
 ## Additional Information 
 
-Our app is entirely self funded and so far represents several years of discussion with clients, planning, design, and development work 
-to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform 
-combined with other technologies meet those requirements.  This is our first grant application.  Our sincere goal here is to build this app 
-as a bridge to blockchain technologies from existing on-prem and cloud technologies.    
+Our app is entirely self funded and represents several years of discussion with clients, planning, design, and development work. Our vision is to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform combined with other technologies serve to meet those requirements.  This is our first grant application.  Our sincere goal is to build this app as a bridge to blockchain technologies from existing on-prem and cloud technologies.    
 
