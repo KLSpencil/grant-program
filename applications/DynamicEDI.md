@@ -175,9 +175,8 @@ traction at no cost to the customer.
 
 #### Community engagement
 Medium Article - We will produce an article and publish it in Medium describing our app and its development as part of the program.   
-Discord Server - We will be setting up and operating a discord server for hosting discussion of the app, its functionality, and support.  
-Community Events - We are active in the blockchain and startup communities in the greater Los Angeles/San Diego region.  We intend to openly 
-discuss our app at various networking events and invite people to test it and consider building integrations for it.    
+Discord Server - A discord server has already been setup at https://discord.gg/85qvDyrnZu.  This will be a place users can discuss the app, request support, and see feature announcements.  
+Community Events - We are active in the blockchain and startup communities in the greater Los Angeles/San Diego region.  We intend to openly discuss our app at various networking events and invite people to test it and consider building integrations for it.    
 LinkedIN -   We will be using LinkedIN to reach out to our existing contact networks to share this tool and ignite interest. 
 Tradeshows - As we gain traction we are prepared to attend and present at industry tradeshows for our targeted verticals.   
 
