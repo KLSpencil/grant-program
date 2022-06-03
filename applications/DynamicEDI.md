@@ -121,9 +121,9 @@ This first milestone represents work in-progress and tasks completed.   We ask t
 - Zoom - $200 per year .
 - OV Wildcard SSL Cert - $200 per year. 
 
-| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.   Repository documentation contains commands for building containers, and launching services with the end result being a working app. |    
-| 1c. | WebApp   |  Once containers are built and services started under milestone 1b, users are be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged, as well as managing client relationships for purposes of data exchange as well as integration with customer ERP database. 
-Users will also be able to send a manual message to validate functionality and on-chain transactions.
+| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.   Repository documentation contains all details for launching the app however it simply can be built using 1. sudo bash build_project.sh     and 2. docker-compose up -d  .  These two commands ran from the local repository folder will result in a functioning app ready for an account to be created and log in.  
+| 1c. | WebApp   |  Once containers are built and services started under milestone 1b, users are be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged, managing client relationships for purposes of data exchange, as well as integration with customer ERP database. 
+Users will be able to send a manual message to validate functionality and on-chain transactions.
 | 1d. | Website  |  Our primary website is currently active showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  Instructions to access demo are also provided in private repository. 
 
 
