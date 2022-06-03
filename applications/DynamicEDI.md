@@ -10,9 +10,9 @@
 
 ### Overview
 
-GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
+GetDynamic is a blockchain EDI(Electronic Data Interchange) messaging system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms, facilitating pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow any database to be connected for both sending and receiving.  Standard EDI formats will be supported but are not required to be followed.  
 
-This project was born out of my 15 years of experiences as an ERP consultant in the aerospace industry. Many companies have the same issues with data and yet do not have any easy way of exchanging the data they need.  Most companies are still exchanging small amounts of data via phone and email or are using legacy centralized systems at great cost.  Existing EDI services have too high a cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service making this kind of automation available to a wider array of companies.  Users will have a choice to pay for transactions either from their own wallet directly or via subscription managed using VIP191.  No subscription or payment is required to receive transactions.    
+This project was inspired by Ryan Realivasquez's 15 years of experience as an ERP consultant in the aerospace industry. Many companies have the same issues with data, yet do not have any easy way of exchanging the data they need securely.  Most companies are still exchanging small amounts of data via phone and email or are using legacy centralized systems at great cost.  Existing EDI services have too high a cost of entry for small to medium sized businesses to take advantage of such tools. GetDynamic significantly reduces that transcation cost while still providing a private and secure service, therefore this specalised automation is available to a wider array of companies.  Users will have a choice to pay for transactions either from their own wallet directly or via subscription managed using VIP191.  No subscription or payment is required to receive transactions.    
 
 
 ### Project Details
@@ -49,14 +49,14 @@ Mockups/designs of UI components:
  
 
 ### Ecosystem Fit
-Within Vechain there are not any projects that we are aware of that are similar.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.   Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.  We believe that our app fits well within the Vechain ecosystem as it will provide an on-ramp for companies to leverage existing infrastructure in accessing and taking advantage of modern distributed ledger technology. 
+Within Vechain no comparable projects are apparent.  On other chains we have found messaging systems but have not found any that focus on connecting to ERP systems for data exchange.  Companies providing legacy EDI systems include TrueCommerce, Seeburger, and IBM Sterling.  Our app fits well within the Vechain ecosystem;it will provide an on-ramp for companies to leverage existing infrastructure in accessing and taking advantage of modern distributed ledger technology. 
 
 
 ## Team 
 
 ### Team members & Contributors
 - Ryan Realivasquez (Founder, Full stack Development) 
-- Matt Haydon (Cofounder, Web Development, Marketing ) 
+- Matt Haydon (Cofounder, Web Development, Marketing) 
 - Genaro Coronel (Full Stack Development) 
 - Oleg Tropinin (Full Stack Development) 
 
