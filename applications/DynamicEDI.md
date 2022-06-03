@@ -68,11 +68,11 @@ Within Vechain there are not any projects that we are aware of that are similar.
 
 Please describe the team's relevant experience. If the project involves development work, then we'd appreciated it if you can single out a few interesting codes commits made by team members on their past projects. 
 
-Ryan Realivasquez is the primary founder of GetDynamic. As a consultant in the aerospace industry he brings over 15 years excelling in implementing and supporting ERP systems. Through this experience he identified the need for a lower cost and more widely available system for exchanging data between companies.   Utilizing the stengths of Blockchain technology he developed a simplified EDI system that addresses the needs of his clients as well as the industry overall. Getdynamic strengthens and improves upon existing EDI systems by focusing on three things:  Privacy.  Simplicity. Cost.  Ryan launched development of the app, has researched and defined the infrastructure technologies to be used, defined the features and product roadmap, and has self funded the engagement of professional developers to complete initial development. 
+Ryan Realivasquez is the primary founder of GetDynamic. As an aerospace industry consultant for over 15 years, he excells in implementing and supporting ERP systems. Through this experience he identified the need for a lower cost and more widely available system for exchanging data between companies.   Utilizing the stengths of Blockchain technology he developed a simplified EDI system that addresses the needs of his clients and the industry overall. Getdynamic strengthens and improves upon existing EDI systems by focusing on three things: privacy, simplicity, and cost.  Ryan launched development of the app, has researched and defined the infrastructure technologies to be used, defined the features and product roadmap, and has self funded the engagement of professional developers to complete initial development. 
 
-Matt Haydon is a cofounder of GetDynamic.  He has past experience launching several small businesses and is an influencer within the blockchain space operating successful social media communities.   Matt is also contributing to development of our app by focusing on designing and building the User Experience(UX) in our interfaces as well as planning, and when it is time executing, our web marketing plan.  
+Matt Haydon is cofounder of GetDynamic.  He has past experience launching several small businesses and is an influencer within the blockchain space, operating successful social media communities.   Matt contributes to development of our app by focusing on interface design and building the User Experience(UX). Additionally, he develops future plans and continues to manage our web marketing plan.  
 
-Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart contract seveloper as well. He is responsible for coding our IPFS-Cluster storage backend, Dockerizing the infrastructure, and connecting the app to the Vechain network.  
+Genaro Coronel is our principal developer. He has added several major features to the infrastructure of our app and will be our primary smart-contract developer as well. He is responsible for coding our IPFS-Cluster storage backend, dockerizing the infrastructure, and connecting the app to the Vechain network.  
 
 Oleg Tropinin has contributed to early development efforts and will be rejoining us for future development.  He has been responsible for our initial Vechain integration, web app infrastructure setup, and django configuration.  
  
@@ -112,18 +112,19 @@ Below we provide an <b>example roadmap</b>. For each milestone:
 
 #### Milestone 1 — Infrastructure, Backend, WebApp,  Website  
 
-This first milestone represents work in-progress and tasks completed.   We ask the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation.   This will enable us to launch and move forward on completion of the remaining milestones. 
+This first milestone represents work in-progress and tasks completed. We request the foundation to please review our submitted work, validate completion of this 1st milestone, and deliver payment upon validation. We are inspired to launch and this will allow us to move forward on completion of the remaining milestones. 
 
-| 1a. | Infrastructure  | Our goal is to secure funding for the first year of infrastructure service costs.  This covers a primary and backup VPS service each operating Vechain testnet and mainnet nodes, on-prem and cloud storage services for the network, data backups, and monitoring. Internal production and test network topology is configured for security with current generation enterprise quality gear. 
+| 1a. | Infrastructure  | Our goal is to secure funding for the first year of infrastructure service costs.  Initally, this will cover a primary and backup VPS service each operating Vechain testnet and mainnet nodes, on-prem and cloud storage services for the network, data backups, and monitoring. Internal production and test network topology is configured for security with current generation enterprise quality gear. 
 - ISP Costs - Synchronous Gigabit Internet $150 per month.
 - VPS Costs -  2 VPS Servers @ $50 each per month.  
 - Hosting Fees - $50 Per Month.
 - Zoom - $200 per year .
 - OV Wildcard SSL Cert - $200 per year. 
 
-| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.   Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.   Repository documentation contains all details for launching the app however it simply can be built using 1. sudo bash build_project.sh     and 2. docker-compose up -d  .  These two commands ran from the local repository folder will result in a functioning app ready for an account to be created and log in.  
+| 1b. | Backend  |  Our app is fully dockerized and ready for rapid stand alone deployment.  Each major function is in its own container that can be managed separately.  Containers include the ipfs daemon, a separate container for IPFS Cluster nodes, Postgres, Database Listener/Message Broker, Vechain node, and the web app itself running Django and Nginx.   Repository documentation contains all details for launching the app however it simply can be built using 1. sudo bash build_project.sh     and 2. docker-compose up -d  .  These two commands ran from the local repository folder will result in a functioning app ready for an account to be created and log in.  
 | 1c. | WebApp   |  Once containers are built and services started under milestone 1b, users are be able to login and access the webapp. The app itself focuses on showing the activity of data being exchanged, managing client relationships for purposes of data exchange, as well as integration with customer ERP database. 
 Users will be able to send a manual message to validate functionality and on-chain transactions.
+
 | 1d. | Website  |  Our primary website is currently active showing an explanation of our app, key details, and offers users the ability to request a demo. Software is online and we are ready to provide a demo.  Instructions to access demo are also provided in private repository. 
 
 
@@ -147,16 +148,16 @@ the customer network and can be securely connected to the webapp's API interface
 
 
 #### Milestone 3  —  Smart Contract 
-| 3. | Smart Contracts | This milestone focuses on the creation and impplementation of the smart contract that will drive the service.
+| 3. | Smart Contracts | This milestone focuses on the creation and implementation of the smart contract that will drive the service.
 
 | 3a. | Access Controls |  Control for VIP191 Fee Delegation vs Payment by Sender
 
-| 3b. | Public Directory |  Public  Authenticated Wallet Address Listing - This will be about creating an authenticated listing of public addresses 
-that companies can be reached at for purposes of this app.   This public address is only used for two purposes:  To validate the company and initiate contact.  
+| 3b. | Public Directory |  Public Authenticated Wallet Address Listing - An authenticated listing of public addresses will be created
+to contact companies for purposes of this app.   This public address is only used for two purposes: To validate the company and initiate contact.  
 
-| 3c. | IPFS Access Control | Keyshare for IPFS - As new client relationships are formed clients have the option of using a shared IPFS swarm that all users subscribe to or utilizing a private IPFS swarm shared only between two companies.   The key to access seach network share will be encrypted and exchanged triggering a new swarm to be created using the shared key.  
+| 3c. | IPFS Access Control | Keyshare for IPFS - As new client relationships are formed, clients have the option of using a shared IPFS swarm that all users subscribe to, or utilizing a private IPFS swarm shared only between two companies. The key to access each network share will be encrypted and exchanged triggering a new swarm to be created using the shared key.  
 
-| 3d. | Integrator Commissions | Process to drive payment of commissions on transactions.  As transactions are generated an integrator ID code can be transmitted to indicate responsibility for generating these transactions.  A % of fees is then directed to this integrator on a periodic basis. 
+| 3d. | Integrator Commissions | Process to drive payment of commissions on transactions.  As transactions are generated, an integrator ID code can be transmitted to indicate responsibility for generating these transactions.  A % of fees is then directed to this integrator on a periodic basis. 
  
 
 
@@ -164,35 +165,31 @@ that companies can be reached at for purposes of this app.   This public address
 | 4a. | Data Import Export Scripts - We will expand the range of standard data scripts that we will support for each ERP integration.   
 
 | 4b. | Additional ERP Integrations - We will expand our connection options to include a Microsoft SQL Server integration 
-and a Salesforce Lightning integration.  Standard data import export scripts will be built for each specific ERP system to 
+and a Salesforce Lightning integration.  Standard data import-export scripts will be built for each specific ERP system to 
 simplify and accelerate client integration.  
 
 | 4c. | Documentation | We will generate a full suite of documentation that details the process for setup, configuration, integration, and use of the software. Youtube videos will be created showing a walk through of the software and demonstration of key processes. Specifically, we will provide detailed instructions on how to create new import and export scripts to meet the user's specific needs.     
 
-| 4d. | Transactional Support   |  We request the sponsoring of 100,000 VTHO.  These tokens will be used specifically for on-chain transactions by the webapp. 
-With this support it will enable us to offer new customers an initial amount of free transactions to enable experience with the software and hopefully increase 
-traction at no cost to the customer. 
+| 4d. | Transactional Support|  We request the sponsoring of 100,000 VTHO. These tokens will be used specifically for on-chain transactions by the webapp. This support will enable us to offer new customers an initial amount of free transactions to facilitate experience with the software and hopefully increase traction at no cost to the customer. 
 
 
 #### Community engagement
 Medium Article - We will produce an article and publish it in Medium describing our app and its development as part of the program.   
-Discord Server - A discord server has already been setup at https://discord.gg/85qvDyrnZu.  This will be a place users can discuss the app, request support, and see feature announcements.  
+Discord Server - A discord server has already been setup at https://discord.gg/85qvDyrnZu.  This will be a central place users can discuss the app, request support, and see feature announcements.  
 Community Events - We are active in the blockchain and startup communities in the greater Los Angeles/San Diego region.  We intend to openly discuss our app at various networking events and invite people to test it and consider building integrations for it.    
 LinkedIN -   We will be using LinkedIN to reach out to our existing contact networks to share this tool and ignite interest. 
 Tradeshows - As we gain traction we are prepared to attend and present at industry tradeshows for our targeted verticals.   
 
 
 ## Future Plans
-The intention of our team is to use this grant to complete the buildout of our project and begin implementation with existing clients.  With a small amount of traction we will add new features, increase the number of ERP integrations and begin recruiting a network of integrators who will bring online more companies using this tool.  Our initial focus will be on manufacturing and service companies within several different markets. We also will look for opportunities to integrate with import-export businesses as well growth via partnerships with other software consultancies. 
+The intention of our team is to use this grant to complete the buildout of our project and begin implementation with existing clients.  With a small amount of traction we will add new features, increase the number of ERP integrations and begin recruiting a network of integrators who will bring online more companies using this tool.  Our initial focus will be on manufacturing and service companies within several key markets. We also will look for opportunities to integrate with import-export businesses as well growth via partnerships with other software consultancies. 
 
-We view our tool as a data gateway for helping companies access new Web3/Defi technologies using their existing business management solutions.  We see many opportunties for expansion of managing the exchange of data between companies. We will expand our standard data exchange offerings in areas of transactional data, audit controls, accounting/financial controls, and digital certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships across borders and over seas.  
+Our tool is a data-gateway for helping companies access new Web3/Defi technologies using their existing business management solutions. There are numerous opportunties for expansion in managing the exchange of data between companies. We will expand our standard data exchange offerings in areas of transactional data, audit controls, accounting/financial controls, and digital certification validation.  We also intend for this company to be global in scale by serving and supporting B2B relationships across borders and overseas.  
 
-Long term client expansion plans are focused on growth via native integration with ERP software providers, client word of mouth, and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their integrations generate.   
-
-Always creating more valuable transactions.  
+Long term client expansion plans are focused on growth via native integration with ERP software providers, client word of mouth, and developing a network of IT firms, software consultants, and integrators who will be compensated for all transactions their integrations generate. We are committed to creating more valuable transactions.  
 
 
 ## Additional Information 
 
-Our app is entirely self funded and represents several years of discussion with clients, planning, design, and development work. Our vision is to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform combined with other technologies serve to meet those requirements.  This is our first grant application.  Our sincere goal is to build this app as a bridge to blockchain technologies from existing on-prem and cloud technologies.    
+Our app is entirely self-funded and represents several years of discussion with clients, planning, design, and development work. Our vision is to find a way to better meet our clients needs at lower price point than incumbent players utilizing other technologies.  Vechain's platform, combined with other technologies, serves to meet those requirements.  This is our first grant application.  Our sincere goal is to build this app as a bridge to blockchain technologies from existing on-prem and cloud technologies.    
 
