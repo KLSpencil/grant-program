@@ -7,6 +7,7 @@
 - USDT Payment Address: 0x8D4AA616E759058A9aD5cD4F43F4CbD23A7A6Baf
  
 
+
 ### Overview
 
 GetDynamic is a blockchain EDI(Electronic Data Interchange) Messaging  system focused on automating data exchange between business partners.  The app will integrate with existing on-prem and cloud based ERP (Enterprice Resource Planning) database platforms and allow pre-defined and custom scripts to automatically send and receive data. The integration tool is designed to quickly and easily allow for any database to be connected for both sending and receiving.  Standard EDI formats will be supported but not required to be followed.  
@@ -26,7 +27,7 @@ Mockups/designs of UI components:
 ![login-page](https://user-images.githubusercontent.com/11070873/168932198-c7ab7301-a457-403b-9293-2995e348d78d.png)
  
 - Main Dashboard Page 
-![Screenshot from 2022-05-17 16-41-14](https://user-images.githubusercontent.com/11070873/168932347-c38832af-0d79-48af-bed4-5df5ed43a2b1.png)
+![Dashboard](https://user-images.githubusercontent.com/90410142/171931601-2adec06c-56b0-4c90-bab4-683640ebfa20.png)
 
 - Adding A Company / Companies Page
 ![companies-page](https://user-images.githubusercontent.com/11070873/168932639-db1b128a-60a1-415e-8d41-34a76a8584c5.png)
